@@ -73,6 +73,7 @@
                     </div><!-- .foem-group -->
                     <div class="form-group">
                         <a href="user/index.php" class="btn btn-lg btn-primary btn-block">Sign in(User)</a>
+                        <a href="admin/index.php" class="btn btn-lg btn-primary btn-block">Sign in(Admin)</a>
                     </div>
                 </form><!-- form -->
             </div><!-- .nk-block -->
