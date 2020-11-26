@@ -28,23 +28,30 @@
                 <ul class="nk-menu nk-menu-main">
                     <li class="nk-menu-item">
                         <a href="user/index.php" class="nk-menu-link">
-                            <span class="nk-menu-text">UTama</span>
+                            <span class="nk-menu-text">Utama</span>
                         </a>
                     </li>
-                    <li class="nk-menu-item">
-                        <a href="user/info-personal.php" class="nk-menu-link">
-                            <span class="nk-menu-text">Peribadi</span>
+                    <li class="nk-menu-item active has-sub">
+                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                            <span class="nk-menu-text">Maklumat</span>
                         </a>
-                    </li>
-                    <li class="nk-menu-item">
-                        <a href="user/info-pengajian.php" class="nk-menu-link">
-                            <span class="nk-menu-text">Pengajian</span>
-                        </a>
-                    </li>
-                    <li class="nk-menu-item">
-                        <a href="user/info-pekerjaan.php" class="nk-menu-link">
-                            <span class="nk-menu-text">Pekerjaan</span>
-                        </a>
+                        <ul class="nk-menu-sub">
+                            <li class="nk-menu-item">
+                                <a href="user/info-personal.php" class="nk-menu-link">
+                                    <span class="nk-menu-text">Perbadi</span>
+                                </a>
+                            </li>
+                            <li class="nk-menu-item">
+                                <a href="user/info-pengajian.php" class="nk-menu-link">
+                                    <span class="nk-menu-text">Pengajian</span>
+                                </a>
+                            </li>
+                            <li class="nk-menu-item">
+                                <a href="user/info-pekerjaan.php" class="nk-menu-link">
+                                    <span class="nk-menu-text">Pekerjaan</span>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nk-menu-item">
                         <a href="user/yuran-index.php" class="nk-menu-link">
