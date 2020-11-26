@@ -7,8 +7,18 @@
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="../../images/favicon.png">
     <!-- Page Title  -->
-    <title>Sampai @ UTem-mel</title>
+    <title>Alumni @ PMU</title>
     <!-- StyleSheets  -->
     <link rel="stylesheet" href="../../assets/css/dashlite.css?ver=1.4.0">
     <link id="skin-default" rel="stylesheet" href="../../assets/css/theme.css?ver=1.4.0">
 </head>
+<?php
+
+session_start();
+if(!isset($_SESSION['user'])){
+    echo "<script>alert('Session end!');window.location='../login.php'</script>";
+    exit();
+}
+
+$user= $_SESSION['user'];
+?>

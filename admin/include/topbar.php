@@ -5,7 +5,7 @@
                 <a href="#" class="logo-link">
                     <img class="logo-light logo-img" src="../../images/logo.png" srcset="../../images/logo2x.png 2x" alt="logo">
                     <img class="logo-dark logo-img" src="../../images/logo-dark.png" srcset="../../images/logo-dark2x.png 2x" alt="logo-dark">
-                    <span class="nio-version">sampai.my</span>
+                    <span class="nio-version">Alumni</span>
                 </a>
             </div><!-- .nk-header-brand -->
             <div class="nk-header-tools">
@@ -16,7 +16,7 @@
                                 <div class="user-avatar sm">
                                     <em class="icon ni ni-user-alt"></em>
                                 </div>
-                                <div class="user-name dropdown-indicator d-none d-sm-block">Abu Bin Ishityak</div>
+                                <div class="user-name dropdown-indicator d-none d-sm-block"><?= $user['name']; ?></div>
                             </div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-md dropdown-menu-right dropdown-menu-s1">
@@ -26,8 +26,8 @@
                                         <span>AB</span>
                                     </div>
                                     <div class="user-info">
-                                        <span class="lead-text">Abu Bin Ishtiyak</span>
-                                        <span class="sub-text">info@softnio.com</span>
+                                        <span class="lead-text"><?= $user['name']; ?></span>
+                                        <span class="sub-text"><?= $user['ic_no']; ?></span>
                                     </div>
                                     <div class="user-action">
                                         <a class="btn btn-icon mr-n2" href="#"><em class="icon ni ni-setting"></em></a>

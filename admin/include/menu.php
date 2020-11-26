@@ -10,42 +10,38 @@
                     <span class="nk-menu-icon"><em class="icon ni ni-dashboard"></em></span>
                     <span class="nk-menu-text">Dashboard</span>
                 </a>
-                <a href="admin/admin-index.php" class="nk-menu-link">
-                    <span class="nk-menu-icon"><em class="icon ni ni-dashboard"></em></span>
-                    <span class="nk-menu-text">Admin Dashboard</span>
-                </a>
             </li>
             <li class="nk-menu-item">
                 <a href="#" class="nk-menu-link">
                     <span class="nk-menu-icon"><em class="icon ni ni-tags"></em></span>
-                    <span class="nk-menu-text">Parcel Management</span>
+                    <span class="nk-menu-text">Pengurusan Jabatan</span>
                 </a>
                 <ul class="nk-menu-sub">
                     <li class="nk-menu-item">
-                        <a href="admin/parcel-index.php" class="nk-menu-link">
-                            <span class="nk-menu-text">Mine</span>
+                        <a href="admin/department-index.php" class="nk-menu-link">
+                            <span class="nk-menu-text">Senarai Jabatan</span>
                         </a>
-                        <a href="admin/parcel-add.php" class="nk-menu-link">
-                            <span class="nk-menu-text">Subscribe</span>
+                        <a href="admin/department-add.php" class="nk-menu-link">
+                            <span class="nk-menu-text">Tambah Jabatan</span>
+                        </a>
+                        <a href="admin/kos-add.php" class="nk-menu-link">
+                            <span class="nk-menu-text">Tambah Program</span>
                         </a>
                     </li>
                 </ul>
             </li>
             <li class="nk-menu-item">
                 <a href="#" class="nk-menu-link">
-                    <span class="nk-menu-icon"><em class="icon ni ni-tags"></em></span>
-                    <span class="nk-menu-text">Trip Management (Admin)</span>
+                    <span class="nk-menu-icon"><em class="icon ni ni-users"></em></span>
+                    <span class="nk-menu-text">Pengurusan Pelajar</span>
                 </a>
                 <ul class="nk-menu-sub">
                     <li class="nk-menu-item">
-                        <a href="admin/admin-trip-index.php" class="nk-menu-link">
+                        <a href="admin/student-index.php" class="nk-menu-link">
                             <span class="nk-menu-text">List</span>
                         </a>
-                        <a href="admin/admin-trip-add.php" class="nk-menu-link">
-                            <span class="nk-menu-text">Add Trip</span>
-                        </a>
-                        <a href="admin/admin-trip-receive.php" class="nk-menu-link">
-                            <span class="nk-menu-text">Receive Trip (DP)</span>
+                        <a href="admin/student-upload.php" class="nk-menu-link">
+                            <span class="nk-menu-text">Muat Naik Data</span>
                         </a>
                     </li>
                 </ul>

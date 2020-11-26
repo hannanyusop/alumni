@@ -39,15 +39,15 @@
             <div class="nk-block nk-block-middle nk-auth-body">
                 <div class="brand-logo pb-5">
                     <a href="" class="logo-link">
-                        <img class="logo-light logo-img logo-img-lg" src="./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
-                        <img class="logo-dark logo-img logo-img-lg" src="./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                        <img class="logo-light logo-img logo-img-lg" src="./images/logo.png"  alt="logo">
+                        <img class="logo-dark logo-img logo-img-lg" src="./images/logo-dark.png" alt="logo-dark">
                     </a>
                 </div>
                 <div class="nk-block-head">
                     <div class="nk-block-head-content">
                         <h5 class="nk-block-title">Log Masuk</h5>
                         <div class="nk-block-des">
-                            <p>Access the panel using your email and passcode.</p>
+                            <p>Akses panel menggunakan No. Kad Pengenalan dan kod laluan anda.</p>
                         </div>
                     </div>
                 </div><!-- .nk-block-head -->
@@ -61,7 +61,7 @@
                     <div class="form-group">
                         <div class="form-label-group">
                             <label class="form-label" for="password">Katalaluan</label>
-                            <a class="link link-primary link-sm" tabindex="-1" href="#">Forgot Code?</a>
+                            <a class="link link-primary link-sm" tabindex="-1" href="#">Lupa Katalaluan?</a>
                         </div>
                         <div class="form-control-wrap">
                             <a tabindex="-1" href="#" class="form-icon form-icon-right passcode-switch" data-target="password">
@@ -72,8 +72,8 @@
                         </div>
                     </div><!-- .foem-group -->
                     <div class="form-group">
-                        <a href="user/index.php" class="btn btn-lg btn-primary btn-block">Sign in(User)</a>
-                        <a href="admin/index.php" class="btn btn-lg btn-primary btn-block">Sign in(Admin)</a>
+                        <a href="user/index.php" class="btn btn-lg btn-primary btn-block">Log Masuk(User)</a>
+                        <a href="admin/index.php" class="btn btn-lg btn-primary btn-block">Log Masuk(Admin)</a>
                     </div>
                 </form><!-- form -->
             </div><!-- .nk-block -->

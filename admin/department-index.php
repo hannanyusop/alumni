@@ -16,7 +16,18 @@
                         <?php include "include/menu.php" ?>
                         <div class="nk-content-body">
                             <div class="nk-content-wrap">
-                                l
+                                <div class="nk-block">
+                                    <div class="card card-bordered">
+                                        <div class="card-inner card-inner-md">
+                                            <div class="card-title-group">
+                                                <h6 class="card-title">Senarai Jabatan</h6>
+                                                <div class="card-action">
+                                                    <a href="admin/department-add.php" class="link link-sm">Tambah <em class="icon ni ni-plus"></em></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- .card -->
+                                </div>
                             </div>
 
                             <?php include "include/footer.php" ?>
@@ -28,8 +39,5 @@
     </div>
 </div>
 </body>
-
-<script src="../assets/js/charts/gd-general.js?ver=1.4.0"></script>
-
 
 </html>
